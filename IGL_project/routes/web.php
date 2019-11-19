@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/acceuil', function () {
+    return view('Acceuil');
+});
+Route::get('/ajout', function () {
+    return view('Ajout');
+});
+
+
+Route::resource('/AjoutEns','AjoutEnsController');
+Route::resource('/AfficherUsers','AfficherUsersController');
+Route::resource('/Admin','AdminController');
