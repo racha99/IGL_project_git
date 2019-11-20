@@ -25,3 +25,6 @@ Route::get('/ajout', function () {
 Route::resource('/AjoutEns','AjoutEnsController');
 Route::resource('/AfficherUsers','AfficherUsersController');
 Route::resource('/Admin','AdminController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
