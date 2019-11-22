@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+    'uses'=>'studentsController@show',
+    'as'=>'students.show'
+]);
+    Route::post('webapp',[
+        'uses'=>'studentsController@create',
+        'as'=>'studentscreate'
+    ]);
