@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/acceuil', function () {
+    return view('Acceuil');
+});
+Route::get('/ajout', function () {
+    return view('Ajout');
+});
+
+
+Route::resource('/AjoutEns','AjoutEnsController');
+Route::resource('/AjoutEtu','AjoutEtuController');
+Route::resource('/AfficherUsers','AfficherUsersController');
+Route::resource('/Admin','AdminController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
