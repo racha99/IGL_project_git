@@ -134,29 +134,29 @@
         <div class="card-body">
                 <div class="form-group">
                               <label  for="user" class="label">name</label>
-                              <input type="text"  class="form-control" id="name" name="name"  placeholder="Enter name">
+                              <input id=Tname type="text"  class="form-control" id="name" name="name"  placeholder="Enter name">
                               </div>
                               <br> <br>
                               <div class="group">
                               <label  for="user"class="label">lastname</label>
-                              <input type="text" class="form-control"  id="last_name"  name="last_name"  placeholder="Enter last name">
+                              <input id=Tlast_name type="text" class="form-control"  id="last_name"  name="last_name"  placeholder="Enter last name">
                               </div>
                               <br> <br>
                               <div class="group">
                               <label  for="user" class="label">Email</label>
-                              <input type="text" class="form-control"  id="email" name="email"  placeholder="Enter email">
+                              <input id=Temail type="text" class="form-control"  id="email" name="email"  placeholder="Enter email">
                               </div>
                               <br> <br>
                               <div class="group">
                               <label  for="user" class="label">Module</label>
-                              <input type="text" class="form-control"  name="module"  id ="module" placeholder="Module qu'il enseignent">
+                              <input id=Tmodule type="text" class="form-control"  name="module"  id ="module" placeholder="Module qu'il enseignent">
                               </div>
                               <br> <br>
 
 
                               <div class="group">
                                       <label   for="exampleSelect2" class="label">yearOfTeaching</label>
-                                      <select class="form-control"  name="yearOfTeaching" id="yearOfTeaching">
+                                      <select id=TyearOfTeaching class="form-control"  name="yearOfTeaching" >
                                       <option>1cp</option>
                                         <option>2cp</option>
                                         <option>1cs</option>
@@ -168,7 +168,7 @@
 
                                     <div class="group">
                                           <label  for="exampleSelect2" class="label">nbGroupe</label>
-                                          <select class="form-control"  name="nbGroupe" id="nbGroupe">
+                                          <select class="form-control"  name="nbGroupe" id=TnbGroupe>
                                           <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -181,7 +181,7 @@
                                           </select>
                                         </div>
                                         <br> <br>
-                              <button type="submit" name="submit"  class="btn btn-primary">Submit</button>
+                              <button id=Tsubmit type="submit" name="submit"  class="btn btn-primary">Submit</button>
                 </div>
             </div>
 

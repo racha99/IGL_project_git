@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>ESI MANAGER| Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -134,23 +134,23 @@
                     <div class="card-body">
                             <div class="form-group">
                                     <label for="exampleInputEmail1">name</label>
-                                    <input type="text" class="form-control"  name="name"  placeholder="Enter email">
+                                    <input id=Sname type="text" class="form-control"  name="name"  placeholder="Enter Name">
                                     </div>
                                     <div class="form-group">
                                     <label for="exampleInputEmail1">last_name</label>
-                                    <input type="text" class="form-control"  name="last_name"  placeholder="Enter email">
+                                    <input id=Slast_name type="text" class="form-control"  name="last_name"  placeholder="Enter Last-Name">
                                     </div>
                                     <div class="form-group">
                                     <label for="exampleInputEmail1">email</label>
-                                    <input type="text" class="form-control"  name="email"  placeholder="Enter email">
+                                    <input id=Semail type="text" class="form-control"  name="email"  placeholder="Enter email">
                                     </div>
                                     <div class="form-group">
                                     <label for="exampleInputEmail1">matricule</label>
-                                    <input type="text" class="form-control"  name="matricule"  placeholder="Enter email">
+                                    <input id=Smatricule type="text" class="form-control"  name="matricule"  placeholder="Enter ID">
                                     </div>
                                     <div class="form-group">
                                             <label for="exampleSelect2">Année d'etude</label>
-                                            <select class="form-control" name="cycle" id="cycle">
+                                            <select id=cycle class="form-control" name="cycle" >
                                             <option>1cp</option>
                                               <option>2cp</option>
                                               <option>1cs</option>
@@ -161,7 +161,7 @@
 
                                           <div class="form-group">
                                                 <label for="exampleSelect2">Goupe</label>
-                                                <select class="form-control" name="groupe" id="groupe">
+                                                <select id=groupe class="form-control" name="groupe" >
                                                 <option>1</option>
                                                   <option>2</option>
                                                   <option>3</option>
@@ -173,7 +173,7 @@
                                                   <option>9</option>
                                                 </select>
                                               </div>
-                                    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                                    <button id=Ssubmit type="submit" name="submit" class="btn btn-primary">Submit</button>
                       </div>
                   </div>
 
@@ -185,10 +185,10 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2019-2020 EsiManager.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.0.1
+      <b>Version</b> 0.1
     </div>
   </footer>
 

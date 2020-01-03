@@ -129,7 +129,7 @@
 
 
 
-    <table class="table table-hover">
+    <table id=tableau class="table table-hover">
         <thead>
           <tr>
             <th scope="col">Type</th>
@@ -138,7 +138,7 @@
 
           </tr>
         </thead>
-        <tbody>
+        <tbody >
             @foreach ($users as $user)
             @if($user->Type=="ENS")
             <tr class="table-danger">
